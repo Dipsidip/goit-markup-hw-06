@@ -56,6 +56,11 @@
             </li>
           </ul>
         </address>
+        <button class="menu-toggle js-open-menu" aria-expanded="false" aria-controls="mobile-menu">
+          <svg class="icon-mobile-menu" width="28" height="28">
+            <use href="/images/icons.svg#"></use>
+          </svg>
+        </button>
       </div>
     </header>
     <main>
@@ -160,7 +165,7 @@
       </section> 
       <!-- Selection 4-->
       <section class="team-title">
-        <div class="container team">
+        <div class="container team-container">
           <h2 class="headline">Our Team</h2>
           <ul class="team-list list">
             <li class="team-photo">
@@ -553,6 +558,63 @@
         </form>
       </div>
     </div>
+
+    <!-- Mobile menu -->
+    <div class="menu-container js-menu-container" id="mobile-menu">
+      <button class="menu-toggle js-close-menu">
+        <svg class="menu-close-icon" width="8" height="8">
+          <use href="./images/icons.svg#icon-close-black"></use>
+        </svg>
+      </button>
+    
+      <ul class="mobile-menu list">
+        <li class="mobile-menu-item">
+          <a class="mobile-menu-link link" href="">Studio</a>
+        </li>
+        <li class="mobile-menu-item">
+          <a class="mobile-menu-link link" href="">Portfolio</a>
+        </li>
+        <li class="mobile-menu-item">
+          <a class="mobile-menu-link link" href="">Contacts</a>
+        </li>
+      </ul>
+    
+      <ul class="mobile-menu-socials socials list">
+        <li class="socials-item">
+          <a class="socials-link" href="https://instagram.com" target="_blank" rel="noopener noreferrer"
+            aria-label="Instagram icon">
+            <svg class="socials-icon" width="24" height="24">
+              <use href="./images/sprite.svg#icon-instagram"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="socials-item">
+          <a class="socials-link" href="https://facebook.com" target="_blank" rel="noopener noreferrer"
+            aria-label="Facebook icon">
+            <svg class="socials-icon" width="24" height="24">
+              <use href="./images/sprite.svg#icon-facebook"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="socials-item">
+          <a class="socials-link" href="https://twitter.com" target="_blank" rel="noopener noreferrer"
+            aria-label="Twitter icon">
+            <svg class="socials-icon" width="24" height="24">
+              <use href="./images/sprite.svg#icon-twitter"></use>
+            </svg>
+          </a>
+        </li>
+          <li class="socials-item">
+            <a class="socials-link" href="https://linkedin.com" target="_blank" rel="noopener noreferrer"
+              aria-label="Linkedin icon">
+              <svg class="socials-icon" width="24" height="24">
+                <use href="./images/sprite.svg#icon-linkedin"></use>
+              </svg>
+            </a>
+          </li>
+      </ul>
+    </div>
+
     <script src="./js/modal.js"></script>
     <script defer src="js/mobile-menu.js"></script>
   </body>
