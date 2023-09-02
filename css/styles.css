@@ -132,40 +132,18 @@ ol {
   margin-right: 76px;
 }
 .logo-footer-logo {
-  display: block;
-  text-align: center;
   font-family: Raleway, sans-serif;
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 1.17;
-      letter-spacing: 0.03em;
-      text-transform: uppercase;
-      color: #4d5ae5;
-      display: inline-block;
-      margin-bottom: 17.5px;
-}
-/* tablet screen */
-@media screen and (min-width: 768px) {
-  .logo-footer-logo {
-    
-  }
+  font-weight: 800;
+  font-size: 18px;
+  display: inline-block;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+  display: inline-block;
+  margin-bottom: 17.5px;
 }
 
-/* desctop screen */
-@media screen and (min-width: 1158px) {
-  .logo-footer-logo {
-      font-family: Raleway, sans-serif;
-        font-weight: 800;
-        font-size: 18px;
-        display: inline-block;
-        line-height: 1.17;
-        letter-spacing: 0.03em;
-        text-transform: uppercase;
-        color: #4d5ae5;
-        display: inline-block;
-        margin-bottom: 17.5px;
-  }
-}
 
 .logo-header {
   letter-spacing: 0.03em;
