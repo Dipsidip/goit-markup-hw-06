@@ -234,12 +234,14 @@ ol {
 }
 
 .hero-section {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/Studio/Dark-bg-mobile.jpg);
 padding-top: 112px;
 padding: 54px;
 }
 /* tablet screen */
 @media only screen and (min-width: 768px) {
   .hero-section {
+      background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/Studio/Dark-bg-tablet.jpg);
     padding: 136px;
   }
 }
@@ -249,7 +251,7 @@ padding: 54px;
   .hero-section {
     background-color: #2e2f42;
   padding-top: 117px;
-  background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/img-name.jpg);
+  background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/Studio/people-office-laptop\ 1.jpg);
   background-size: cover;
   margin: 0 auto;
   max-width: 1440px;
