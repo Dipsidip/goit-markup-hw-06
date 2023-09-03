@@ -270,6 +270,9 @@ text-align: center;
         background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/Studio/Dark-bg-mobile.jpg);
 padding-top: 112px;
 padding: 54px;
+background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 @media (min-device-pixel-ratio: 2),
 (min-resolution: 192dpi),
@@ -284,6 +287,9 @@ padding: 54px;
   .hero-section {
       background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/Studio/Dark-bg-tablet.jpg);
     padding: 136px;
+    background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
   }
 }
 @media only screen and (min-width: 768px) and (min-device-pixel-ratio: 2),
@@ -1121,7 +1127,7 @@ color: #2e2f42;
 
 .button-footer {
   width: 117px;
-  margin-top: 16px;
+  margin: auto;
     display: inline-flex;
       padding: 8px 24px;
       justify-content: center;
@@ -1203,6 +1209,7 @@ color: #2e2f42;
 .footer-form {
   display: flex;
   flex-direction: column;
+  gap: 16px;
   
 }
 /* tablet screen */
